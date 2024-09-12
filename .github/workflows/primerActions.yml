@@ -44,7 +44,5 @@ jobs:
 
     - name: Verify installations
       run: |
-        node -v
-        npm -v
         terraform -v
         aws --version
